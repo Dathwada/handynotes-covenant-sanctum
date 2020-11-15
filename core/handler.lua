@@ -258,11 +258,12 @@ local currentMapID = nil
         return iter, private.DB.points[uMapID], nil
     end
     function private:ShouldShow(coord, point, currentMapID)
+    if not private.db.force_nodes then
         if (private.hidden[currentMapID] and private.hidden[currentMapID][coord]) then
             return false
         end
         -- this will check if any node is for specific covenant
-        if (point.covenant and point.covenant ~= C_Covenants.GetActiveCovenantID() and not private.db.force_nodes) then
+        if (point.covenant and point.covenant ~= C_Covenants.GetActiveCovenantID()) then
             return false
         end
         if (point.anvil and not private.db.show_vendor) then return false; end
@@ -274,6 +275,7 @@ local currentMapID = nil
         if (point.stablemaster and not private.db.show_stablemaster) then return false; end
         if (point.vendor and not private.db.show_vendor) then return false; end
         if (point.weaponsmith and not private.db.show_weaponsmith) then return false; end
+    end
         return true
     end
 end
