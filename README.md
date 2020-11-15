@@ -26,4 +26,4 @@
 
 ## Issues and Suggestion
 
-Please write a comment
+Please go to [Issues](https://github.com/Dathwada/handynotes-covenant-sanctum/issues) to submit any issue found or any suggestion.
