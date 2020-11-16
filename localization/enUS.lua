@@ -77,7 +77,6 @@ L["handler_context_menu_hide_node"] = "Hide this node"
 
 --============================================TOOLTIPS============================================--
 
-L["SetTooltip_mailbox"] = "Mailbox"
 L["handler_tooltip_requires"] = "Requires"
 L["handler_tooltip_sanctum_feature"] = "a Sanctum Upgrade"
 L["handler_tooltip_TNTIER"] = "Tier %s of the travel network."
@@ -86,8 +85,7 @@ L["handler_tooltip_TNTIER"] = "Tier %s of the travel network."
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
---==========================================SHADOWLANDS===========================================--
-
 L["Portal to Oribos"] = true
+L["Mailbox"] = true
 
 end

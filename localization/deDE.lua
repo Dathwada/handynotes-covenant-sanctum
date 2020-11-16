@@ -77,7 +77,6 @@ L["handler_context_menu_hide_node"] = "Verstecke diesen Punkt"
 
 --============================================TOOLTIPS============================================--
 
-L["SetTooltip_mailbox"] = "Briefkasten"
 L["handler_tooltip_requires"] = "Benötigt"
 L["handler_tooltip_sanctum_feature"] = "eine Sanktumaufwertung"
 L["handler_tooltip_TNTIER"] = "Stufe %s des Reisenetzwerks."
@@ -87,5 +86,6 @@ L["handler_tooltip_TNTIER"] = "Stufe %s des Reisenetzwerks."
 ----------------------------------------------------------------------------------------------------
 
 L["Portal to Oribos"] = "Portal nach Oribos"
+L["Mailbox"] = "Briefkasten"
 
 end

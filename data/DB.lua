@@ -5,12 +5,6 @@
 local FOLDER_NAME, private = ...
 local L = private.locale
 
-----------------------------------------------------------------------------------------------------
------------------------------------------------LOCALS-----------------------------------------------
-----------------------------------------------------------------------------------------------------
-
-local PtoOribos = L["Portal to Oribos"]
-
 ----------------------------------------------COVENANT----------------------------------------------
 
 local Kyrian    = 1
@@ -18,9 +12,6 @@ local Venthyr   = 2
 local Nightfae  = 3
 local Necrolord = 4
 --local PH = L["PH"] -- PLACEHOLDER
-
---------------------------------------------SHADOWLANDS---------------------------------------------
-
 
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------DATABASE----------------------------------------------
@@ -33,13 +24,13 @@ DB.points = {
 -----------------------------------------------KYRIAN-----------------------------------------------
 
 [1707] = { -- Elysisan Hold - Archon's Rise
-    [48816478] = { portal=true, label=PtoOribos, covenant=Kyrian, sanctumtalent=1058 },
+    [48816478] = { portal=true, label=L["Portal to Oribos"], covenant=Kyrian, sanctumtalent=1058 },
 
 --    [42747027] = { vendor=true, npc=176100, covenant=Kyrian }, -- Hüter des Ruhms
 
     [48275915] = { innkeeper=true, npc=174581, covenant=Kyrian }, -- Gastwirt
 --    [50964903] = { flightmaster=true, npc=159421, covenant=Kyrian },
-    [48545823] = { mail=true, covenant=Kyrian }, -- Briefkasten
+    [48545823] = { mail=true, label=L["Mailbox"], covenant=Kyrian }, -- Briefkasten
 
     [31584798] = { vendor=true, npc=171973, covenant=Kyrian },
     [31084725] = { vendor=true, npc=171981, covenant=Kyrian },
@@ -48,7 +39,7 @@ DB.points = {
     [30393967] = { vendor=true, npc=171958, covenant=Kyrian },
     [26373385] = { innkeeper=true, npc=174582, covenant=Kyrian }, -- Gastwirt
     [24023658] = { vendor=true, npc=174583, covenant=Kyrian },
-    [24623230] = { mail=true, covenant=Kyrian }, -- Briefkasten
+    [24623230] = { mail=true, label=L["Mailbox"], covenant=Kyrian }, -- Briefkasten
     [22773160] = { stablemaster=true, npc=174580, covenant=Kyrian },
 
 --    [42605303] = { weekly=true, npc=167745, covenant=Kyrian },
@@ -70,7 +61,7 @@ DB.points = {
 ---------------------------------------------NECROLORD----------------------------------------------
 
 [1698] = { -- Seat of the Primus
-    [56373149] = { portal=true, label=PtoOribos, covenant=Necrolord, sanctumtalent=1052 },
+    [56373149] = { portal=true, label=L["Portal to Oribos"], covenant=Necrolord, sanctumtalent=1052 },
 
     [61014409] = { weaponsmith=true, npc=175310, covenant=Necrolord }, -- LFR
     [61504564] = { weaponsmith=true, npc=175371, covenant=Necrolord }, -- Normal
@@ -87,13 +78,13 @@ DB.points = {
     [42163153] = { anvil=true, npc=173022, covenant=Necrolord }, --
 
     [46913004] = { innkeeper=true, npc=161994, covenant=Necrolord }, -- Gastwirt
-    [48352815] = { mail=true, covenant=Necrolord }, -- Briefkasten
+    [48352815] = { mail=true, label=L["Mailbox"], covenant=Necrolord }, -- Briefkasten
 },
 
 ---------------------------------------------NIGHTFAE-----------------------------------------------
 
 [1565] = { -- Ardenweald
---    [46605126] = { portal=true, label=PtoOribos, covenant=Nightfae, sanctumtalent=1055 },
+--    [46605126] = { portal=true, label=L["Portal to Oribos"], covenant=Nightfae, sanctumtalent=1055 },
     [48975297] = { stablemaster=true, npc=168082, covenant=Nightfae }, -- Stallmeisterin
 },
 
@@ -104,7 +95,7 @@ DB.points = {
     [46085651] = { vendor=true, npc=175418, covenant=Nightfae }, -- Rüstungshänderin der Nachtfae
     [46935676] = { reforge=true, npc=175419, covenant=Nightfae }, -- Fortgeschrittene Rüstungsschmiedin der Nachtfae
 
-    [52525602] = { mail=true, covenant=Nightfae }, -- Briefkasten
+    [52525602] = { mail=true, label=L["Mailbox"], covenant=Nightfae }, -- Briefkasten
     [54735619] = { innkeeper=true, npc=160292, covenant=Nightfae }, -- Gastwirt
     [55085509] = { anvil=true, npc=158554, covenant=Nightfae }, --
     [60303270] = { vendor=true, npc=174914, covenant=Nightfae }, -- Ruhmrüstmeisterin
@@ -113,7 +104,7 @@ DB.points = {
     [88013726] = { stablemaster=true, npc=168082, covenant=Nightfae }, -- Stallmeisterin
 },
 [1702] = { -- Hearth of the Forest - The Roots
-    [59972842] = { portal=true, label=PtoOribos, covenant=Nightfae, sanctumtalent=1055 },
+    [59972842] = { portal=true, label=L["Portal to Oribos"], covenant=Nightfae, sanctumtalent=1055 },
 
     [46695388] = { weaponsmith=true, npc=175413, covenant=Nightfae }, -- LFR
     [48035327] = { weaponsmith=true, npc=175414, covenant=Nightfae }, -- Normal
@@ -131,7 +122,7 @@ DB.points = {
     [66023348] = { innkeeper=true, npc=166137, covenant=Venthyr }, -- Gastwirt
     [54122456] = { vendor=true, npc=174710, covenant=Venthyr }, -- Ruhmrüstmeisterin
     [60054330] = { anvil=true, npc=166160, covenant=Venthyr}, -- Schmiedebedarf
-    [59782904] = { mail=true, covenant=Venthyr }, -- Briefkasten
+    [59782904] = { mail=true, label=L["Mailbox"], covenant=Venthyr }, -- Briefkasten
 --    [54322626] = { speak=true, npc=175772, covenant=Venthyr}, -- Hüterin des Ruhms
 --    [45412852] = { anvil=true, npc=164738, covenant=Venthyr}, -- Seelenwächter
 },

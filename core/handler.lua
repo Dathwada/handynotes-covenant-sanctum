@@ -90,11 +90,8 @@ local function SetTooltip(tooltip, point)
                 tooltip:AddLine(sublabel,1,1,1)
             end
         end
-        if point.portal then
+        if point.label then
             tooltip:AddLine(point.label)
-        end
-        if point.mail then
-            tooltip:AddLine(L["SetTooltip_mailbox"])
         end
         if point.covenant and point.sanctumtalent then
             local TALENT = C_Garrison.GetTalentInfo(point.sanctumtalent)
