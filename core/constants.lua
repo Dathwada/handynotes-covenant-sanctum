@@ -29,9 +29,11 @@ constants.defaults = {
 
         easy_waypoint = true,
 
-        dev = false,
         force_nodes = false,
         show_prints = false,
+    },
+    global = {
+        dev = false,
     },
     char = {
         hidden = {
@@ -71,6 +73,6 @@ constants.icon = {
     reforge         = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\reforge",
     stablemaster    = "Interface\\MINIMAP\\TRACKING\\StableMaster",
     vendor          = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\vendor",
-    weaponsmith    = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\weaponsmith",
+    weaponsmith     = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\weaponsmith",
 --    weekly          = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\weekly",
 }

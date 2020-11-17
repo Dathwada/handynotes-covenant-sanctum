@@ -286,9 +286,13 @@ function addon:OnInitialize()
 
     profile = self.db.profile
     private.db = profile
+
+    global = self.db.global
+    private.global = global
+
     private.hidden = self.db.char.hidden
 
-    if private.db.dev then
+    if private.global.dev then
         private.devmode()
     end
 
@@ -309,7 +313,7 @@ local frame, events = CreateFrame("Frame"), {};
 function events:ZONE_CHANGED(...)
     addon:Refresh()
 
-    if private.db.dev and private.db.show_prints then
+    if private.global.dev and private.db.show_prints then
         print("Covenant Santcum: refreshed after ZONE_CHANGED")
     end
 end
@@ -317,7 +321,7 @@ end
 function events:ZONE_CHANGED_INDOORS(...)
     addon:Refresh()
 
-    if private.db.dev and private.db.show_prints then
+    if private.global.dev and private.db.show_prints then
         print("Covenant Santcum: refreshed after ZONE_CHANGED_INDOORS")
     end
 end
@@ -325,7 +329,7 @@ end
 function events:QUEST_FINISHED(...)
     addon:Refresh()
 
-    if private.db.dev and private.db.show_prints then
+    if private.global.dev and private.db.show_prints then
         print("Covenant Santcum: refreshed after QUEST_FINISHED")
     end
 end

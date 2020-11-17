@@ -70,7 +70,7 @@ config.options = {
                         end
                     end,
                     desc = L["config_portal_desc"],
-                    order = 3,
+                    order = 23,
                     disabled = function() return IsAddOnLoaded("HandyNotes_TravelGuide") end,
                 },
                 desc2 = {
