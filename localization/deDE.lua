@@ -8,7 +8,7 @@ if L then
 ----------------------------------------------------------------------------------------------------
 
 L["config_plugin_name"] = "Covenant Sanctum"
-L["config_plugin_desc"] = "Zeigt die Positionen von NPCs und anderer POIs im Paktsanktum an."
+L["config_plugin_desc"] = "Zeigt die Positionen von NPCs und anderer POIs im Paktsanktum auf der Weltkarte und Minimap an."
 
 L["config_tab_general"] = "Allgemein"
 --L["config_tab_scale_alpha"] = "Größe / Transparenz"

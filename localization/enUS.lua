@@ -8,7 +8,7 @@ if L then
 ----------------------------------------------------------------------------------------------------
 
 L["config_plugin_name"] = "Covenant Sanctum"
-L["config_plugin_desc"] = "Shows the NPC and POI locations in your covenant sanctum."
+L["config_plugin_desc"] = "Displays the NPC and POI locations in your covenant sanctum on the world map and minimap."
 
 L["config_tab_general"] = "General"
 --L["config_tab_scale_alpha"] = "Scale / Alpha"
