@@ -1,4 +1,4 @@
-##### **This is a [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin to show the NPC and POI locations in your covenant sanctum on the world map and minimap.**
+##### **This is a [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin to display the NPC and POI locations in your covenant sanctum on the world map and minimap.**
 
 ## Options
 * **icon scale and alpha.**
@@ -15,6 +15,7 @@
 
 ## Features
 * Support for [TomTom](https://www.curseforge.com/wow/addons/tomtom) Waypoints.
+* Easy Waypoint (Set a waypoint by right-clicking a node and access to more options by CTRL + right-clicking)
 * Sanctum upgrade check.
     * ![](https://i.imgur.com/bOL9btW.png) - (Sanctum upgrade requirement is unfulfilled)
 
@@ -23,6 +24,8 @@
 ## Localization
 * `enUS` - default
 * `deDE` - German (Native locale by Dathwada!)
+
+https://www.curseforge.com/wow/addons/handynotes-covenant-sanctum/localization
 
 ## Issues and Suggestion
 
