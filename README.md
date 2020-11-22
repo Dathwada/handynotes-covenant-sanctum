@@ -25,7 +25,7 @@
 * `enUS` - default
 * `deDE` - German (Native locale by Dathwada!)
 
-https://www.curseforge.com/wow/addons/handynotes-covenant-sanctum/localization
+If you wish to help localize this plugin, please go to [Localization](https://www.curseforge.com/wow/addons/handynotes-covenant-sanctum/localization).
 
 ## Issues and Suggestion
 
