@@ -1,5 +1,10 @@
 ## Revision History:
 
+#### v3 (November 27 , 2020)
+-------------------------------
+* Fixed global variable leak [#1](https://github.com/Dathwada/handynotes-covenant-sanctum/issues/1)
+* Updated enUS, deDE
+
 #### v2 (November 18 , 2020)
 -------------------------------
 * Updated enUS, deDE
