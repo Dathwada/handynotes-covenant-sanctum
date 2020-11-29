@@ -24,6 +24,8 @@
 ## Localization
 * `enUS` - default
 * `deDE` - German (Native locale by Dathwada!)
+* `ruRU` - Russian (thanks [dadec666](https://www.curseforge.com/members/dadec666)!)
+* `zhTW` - Traditional Chinese (thanks [RainbowUI](https://www.curseforge.com/members/rainbowui)!)
 
 If you wish to help localize this plugin, please go to [Localization](https://www.curseforge.com/wow/addons/handynotes-covenant-sanctum/localization).
 
