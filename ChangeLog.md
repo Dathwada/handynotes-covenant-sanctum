@@ -1,5 +1,9 @@
 ## Revision History:
 
+#### v5 (November 30 , 2020)
+-------------------------------
+* Added Simplified Chinese localization by [nbyang](https://www.curseforge.com/members/nbyang) (100% completed)
+
 #### v4 (November 29 , 2020)
 -------------------------------
 * Added Traditional Chinese localization by [RainbowUI](https://www.curseforge.com/members/rainbowui) (100% completed)
