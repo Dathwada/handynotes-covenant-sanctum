@@ -34,6 +34,9 @@ L["config_travelguide_note"] = "|cFFFF0000*Bereits durch HandyNotes: TravelGuide
 L["config_reforge"] = "Rüstungsverbesserer"
 L["config_reforge_desc"] = "Zeigt die Position des Rüstungsverbesserers an."
 
+L["config_renown"] = "Hüter/in des Ruhms"
+L["config_renown_desc"] = "Zeigt die Positionen der Hüter/in des Ruhms an."
+
 L["config_stablemaster"] = "Stallmeister"
 L["config_stablemaster_desc"] = "Zeigt die Positionen der Stallmeister an."
 
