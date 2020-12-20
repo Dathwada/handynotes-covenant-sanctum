@@ -1,5 +1,10 @@
 ## Revision History:
 
+#### v6 (December 20 , 2020)
+-------------------------------
+* Added Keepers of Renown for all Sanctums.
+* Added Path of Ascension Crafter for the Kyrian.
+
 #### v5 (November 30 , 2020)
 -------------------------------
 * Added Simplified Chinese localization by [nbyang](https://www.curseforge.com/members/nbyang) (100% completed)
