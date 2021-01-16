@@ -29,7 +29,7 @@ DB.points = {
     [42747027] = { renown=true, npc=176100, covenant=Kyrian }, -- Hüterin des Ruhms
 
     [48275915] = { innkeeper=true, npc=174581, covenant=Kyrian }, -- Gastwirt
-    [48545823] = { mail=true, label=L["Mailbox"], covenant=Kyrian }, -- Briefkasten
+    [48635827] = { mail=true, label=L["Mailbox"], covenant=Kyrian }, -- Briefkasten
 
     [31584798] = { vendor=true, npc=171973, covenant=Kyrian, sanctumtalent=1091 }, -- quest 60489
     [31084725] = { vendor=true, npc=171981, covenant=Kyrian, sanctumtalent=1091 },
@@ -119,7 +119,7 @@ DB.points = {
     [71582896] = { stablemaster=true, npc=159000, covenant=Venthyr }, -- Stallmeisterin
     [54122456] = { vendor=true, npc=174710, covenant=Venthyr }, -- Ruhmrüstmeisterin
     [60054330] = { anvil=true, npc=166160, covenant=Venthyr}, -- Schmiedebedarf
-    [59782904] = { mail=true, label=L["Mailbox"], covenant=Venthyr }, -- Briefkasten
+    [60022874] = { mail=true, label=L["Mailbox"], covenant=Venthyr }, -- Briefkasten
     [54322626] = { renown=true, npc=175772, covenant=Venthyr}, -- Hüterin des Ruhms
 --    [45412852] = { anvil=true, npc=164738, covenant=Venthyr}, -- Seelenwächter
 },
