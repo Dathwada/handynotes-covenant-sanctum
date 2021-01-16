@@ -114,9 +114,9 @@ DB.points = {
 ----------------------------------------------VENTHYR-----------------------------------------------
 
 [1699] = { -- Sinfall Reaches
-    -- POTAL MISSING
-
+    [62052630] = { portal=true, label=L["Portal to Oribos"], covenant=Venthyr, sanctumtalent=1049 },
     [66023348] = { innkeeper=true, npc=166137, covenant=Venthyr }, -- Gastwirt
+    [71582896] = { stablemaster=true, npc=159000, covenant=Venthyr }, -- Stallmeisterin
     [54122456] = { vendor=true, npc=174710, covenant=Venthyr }, -- Ruhmrüstmeisterin
     [60054330] = { anvil=true, npc=166160, covenant=Venthyr}, -- Schmiedebedarf
     [59782904] = { mail=true, label=L["Mailbox"], covenant=Venthyr }, -- Briefkasten
