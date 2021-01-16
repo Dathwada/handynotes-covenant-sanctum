@@ -44,35 +44,6 @@ config.options = {
                     name = L["config_what_to_display_desc"],
                     order = 1,
                 },
-                icon_scale = {
-                    type = "range",
-                    name = L["config_icon_scale"],
-                    desc = L["config_icon_scale_desc"],
-                    min = 0.25, max = 3, step = 0.01,
-                    width = 1,
-                    order = 2.0,
-                },
-                icon_alpha = {
-                    type = "range",
-                    name = L["config_icon_alpha"],
-                    desc = L["config_icon_alpha_desc"],
-                    min = 0, max = 1, step = 0.01,
-                    width = 1,
-                    order = 2.1,
-                },
-                show_portal = {
-                    type = "toggle",
-                    name = function()
-                        if not IsAddOnLoaded("HandyNotes_TravelGuide") then
-                            return L["config_portal"]
-                        else
-                            return L["config_portal"].." |cFFFF0000(*)|r"
-                        end
-                    end,
-                    desc = L["config_portal_desc"],
-                    order = 23,
-                    disabled = function() return IsAddOnLoaded("HandyNotes_TravelGuide") end,
-                },
                 desc2 = {
                     type = "description",
                     name = L["config_travelguide_note"],
@@ -118,21 +89,19 @@ config.options = {
             },
         },
     },
---    SCALEALPHA = {
---        type = "group",
---        name = L["config_tab_scale_alpha"],
---        desc = L["config_scale_alpha_desc"],
---        order = 1,
---        args = {
---
---        },
---    },
+    SCALEALPHA = {
+        type = "group",
+        name = L["config_tab_scale_alpha"],
+        -- desc = L["config_scale_alpha_desc"],
+        order = 1,
+        args = {
+        },
+    },
     },
 }
 
-local icongroup = {"innkeeper", "mail", "reforge", "renown", "stablemaster", "vendor", "weaponsmith", "others"}
-
-for i, icongroup in ipairs(icongroup) do
+-- create the general config menu
+for i, icongroup in ipairs(private.constants.icongroup) do
 
     config.options.args.ICONDISPLAY.args.display.args["show_"..icongroup] = {
         type = "toggle",
@@ -142,9 +111,13 @@ for i, icongroup in ipairs(icongroup) do
     }
 
 end
+-- set some parameters for general config menu points
+local gcmp = config.options.args.ICONDISPLAY.args.display.args
+gcmp.show_portal["name"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") and L["config_portal"].." |cFFFF0000(*)|r" or L["config_portal"] end
+gcmp.show_portal["disabled"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") end
 
---[[
-for i, icongroup in ipairs(icongroup) do
+-- create the scale / alpha config menu
+for i, icongroup in ipairs(private.constants.icongroup) do
 
     config.options.args.SCALEALPHA.args["name_"..icongroup] = {
         type = "header",
@@ -158,7 +131,7 @@ for i, icongroup in ipairs(icongroup) do
         desc = L["config_icon_scale_desc"],
         min = 0.25, max = 3, step = 0.01,
         arg = "icon_scale_"..icongroup,
-        width = 1.13,
+        width = 1.07,
         order = i *10 + 1,
     }
 
@@ -168,8 +141,7 @@ for i, icongroup in ipairs(icongroup) do
         desc = L["config_icon_alpha_desc"],
         min = 0, max = 1, step = 0.01,
         arg = "icon_alpha_"..icongroup,
-        width = 1.13,
+        width = 1.07,
         order = i *10 + 2,
     }
 end
-]]
