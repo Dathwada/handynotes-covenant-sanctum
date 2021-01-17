@@ -30,7 +30,7 @@ config.options = {
     ICONDISPLAY = {
         type = "group",
         name = L["config_tab_general"],
---      desc = L[""],
+        -- desc = L[""],
         order = 0,
         args = {
             display = {
@@ -111,6 +111,7 @@ for i, icongroup in ipairs(private.constants.icongroup) do
     }
 
 end
+
 -- set some parameters for general config menu points
 local gcmp = config.options.args.ICONDISPLAY.args.display.args
 gcmp.show_portal["name"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") and L["config_portal"].." |cFFFF0000(*)|r" or L["config_portal"] end
@@ -145,3 +146,9 @@ for i, icongroup in ipairs(private.constants.icongroup) do
         order = i *10 + 2,
     }
 end
+
+-- set some parameters for scale / aplha config menu points
+local sacmp = config.options.args.SCALEALPHA.args
+sacmp.name_portal["name"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") and L["config_portal"].." |cFFFF0000(*)|r" or L["config_portal"] end
+sacmp.icon_scale_portal["disabled"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") end
+sacmp.icon_alpha_portal["disabled"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") end
