@@ -56,7 +56,7 @@ local function GetIconScale(icon)
         return private.db["icon_scale_vendor"]
     end
 
-    return private.db["icon_scale_"..icon]
+    return private.db["icon_scale_"..icon] or private.db["icon_scale_others"]
 end
 
 local function GetIconAlpha(icon)
@@ -65,7 +65,7 @@ local function GetIconAlpha(icon)
         return private.db["icon_alpha_vendor"]
     end
 
-    return private.db["icon_alpha_"..icon]
+    return private.db["icon_alpha_"..icon] or private.db["icon_alpha_others"]
 end
 
 local GetPointInfo = function(point)
