@@ -1,5 +1,11 @@
 ## Revision History:
 
+#### v7 (February 08 , 2021)
+-------------------------------
+* Added the missing Portal to Oribos and Stable Master in Sinfall (Venthyr).
+* Changed the mailbox icon (is now the minimap icon).
+* Added a new options tab Scale / Alpha.
+
 #### v6 (December 20 , 2020)
 -------------------------------
 * Added Keepers of Renown for all Sanctums.
