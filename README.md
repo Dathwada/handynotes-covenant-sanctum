@@ -24,6 +24,7 @@
 ## Localization
 * `enUS` - default
 * `deDE` - German (Native locale by Dathwada!)
+* `esES` - Spanish (thanks [Irakua](https://www.curseforge.com/members/Irakua)!)
 * `ruRU` - Russian (thanks [dadec666](https://www.curseforge.com/members/dadec666)!)
 * `zhCN` - Simplified Chinese (thanks [nbyang](https://www.curseforge.com/members/nbyang)!)
 * `zhTW` - Traditional Chinese (thanks [RainbowUI](https://www.curseforge.com/members/rainbowui)!)
