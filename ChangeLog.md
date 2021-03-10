@@ -1,5 +1,11 @@
 ## Revision History:
 
+#### v8 (March 10 , 2021)
+-------------------------------
+* Added Spanish localization by [Irakua](https://www.curseforge.com/members/Irakua)
+* Updated deDE, ruRU, zhCN, zhTW
+* Bump .toc to 90005
+
 #### v7 (February 08 , 2021)
 -------------------------------
 * Added the missing Portal to Oribos and Stable Master in Sinfall (Venthyr).
