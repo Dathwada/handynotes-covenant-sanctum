@@ -44,6 +44,7 @@ constants.defaults = {
         show_others = true,
 
         easy_waypoint = true,
+        easy_waypoint_dropdown = 1,
 
         force_nodes = false,
         show_prints = false,
