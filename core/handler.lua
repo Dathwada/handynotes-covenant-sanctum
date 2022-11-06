@@ -31,7 +31,9 @@ local TNRank            = L["handler_tooltip_TNTIER"]
 ----------------------------------------------------------------------------------------------------
 
 local NPClinkSanctum = CreateFrame("GameTooltip", "NPClinkSanctum", UIParent, "GameTooltipTemplate")
-local function getCreatureNamebyID(id)
+local function GetCreatureNameByID(id)
+    if (not id) then return end
+
 	NPClinkSanctum:SetOwner(UIParent, "ANCHOR_NONE")
 	NPClinkSanctum:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
     local name      = _G["NPClinkSanctumTextLeft1"]:GetText()
@@ -72,7 +74,7 @@ end
 local GetPointInfo = function(point)
     local icon
     if point then
-        local label = getCreatureNamebyID(point.npc) or point.label or UNKNOWN
+        local label = GetCreatureNameByID(point.npc) or point.label or UNKNOWN
         local portal_red = private.constants.icon["portal_red"]
 
         if (point.icon == "portal" and point.sanctumtalent) then
@@ -97,7 +99,7 @@ local function SetTooltip(tooltip, point)
 
     if point then
         if point.npc then
-            local name, sublabel = getCreatureNamebyID(point.npc)
+            local name, sublabel = GetCreatureNameByID(point.npc)
             if name then
                 tooltip:AddLine(name)
             end
