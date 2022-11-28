@@ -1,5 +1,9 @@
 ## Revision History:
 
+#### v17 (November 28, 2022)
+-------------------------------
+* Removed AceTimer-3.0 lib
+
 #### v16 (November 16, 2022)
 -------------------------------
 * Added TomTom waypoint from info
