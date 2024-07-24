@@ -11,8 +11,6 @@ local HBD = LibStub('HereBeDragons-2.0')
 local L = LibStub("AceLocale-3.0"):GetLocale(FOLDER_NAME)
 ns.locale = L
 
-addon.constants = ns.constants
-
 _G.HandyNotes_CovenantSanctum = addon
 
 local IsQuestCompleted = C_QuestLog.IsQuestFlaggedCompleted
