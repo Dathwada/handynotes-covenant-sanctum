@@ -1,7 +1,9 @@
-## Interface: 110107
+## Interface: 110205, 110207
 ## Title: HandyNotes: CovenantSanctum
+## Title-ruRU: HandyNotes: Обитель Ковенанта
 ## Notes: Shows the NPC and POI locations in your covenant sanctum.
 ## Notes-deDE: Zeigt die Positionen von NPCs und anderer POIs im Paktsanktum an.
+## Notes-ruRU: Показывает расположение NPC и других интересных мест в Обители Ковенанта
 ## Author: |cFFFF8C00Dathwada EU-Eredar|r
 ## Version: v33
 ## RequiredDeps: HandyNotes
