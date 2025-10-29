@@ -52,7 +52,7 @@ L["config_waypoint_dropdown"] = "Выбор"
 L["config_waypoint_dropdown_desc"] = "Выберите способ создания точки маршрута."
 L["Blizzard"] = true
 L["TomTom"] = true
-L["Both"] = Оба
+L["Both"] = "Оба"
 
 L["config_others"] = "Другие"
 L["config_others_desc"] = "Показать все остальные достопримечательности."
