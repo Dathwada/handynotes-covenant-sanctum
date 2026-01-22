@@ -1,5 +1,9 @@
 ## Revision History:
 
+#### v35 (January 22, 2026)
+-------------------------------
+* Bump .toc to 120000
+
 #### v34 (January 06, 2026)
 -------------------------------
 * Updated ruRU by [Hollicsh](https://github.com/Hollicsh) [[PR#3]](https://github.com/Dathwada/handynotes-covenant-sanctum/pull/3)
