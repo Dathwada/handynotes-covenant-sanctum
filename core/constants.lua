@@ -88,4 +88,5 @@ constants.icon = {
     trainer         = "Interface\\MINIMAP\\TRACKING\\Profession",
     vendor          = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\vendor",
     weaponsmith     = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\weaponsmith",
+    quartermaster   = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\quartermaster"
 }

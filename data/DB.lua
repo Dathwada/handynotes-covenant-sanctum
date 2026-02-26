@@ -51,7 +51,7 @@ DB.nodes = {
 },
 
 [1708] = { -- Elysisan Hold - Sanctum of Binding
-    [63373045] = { icon="vendor", npc=174937, covenant=Kyrian },
+    [63373045] = { icon="quartermaster", npc=174937, covenant=Kyrian },
     [57383012] = { icon="reforge", npc=175825, covenant=Kyrian },
     [56893093] = { icon="vendor", npc=175823, covenant=Kyrian },
 
@@ -71,7 +71,7 @@ DB.nodes = {
     [57184866] = { icon="vendor", npc=175311, covenant=Necrolord }, -- Paktrüstung
     [56234811] = { icon="reforge", npc=175314, covenant=Necrolord }, -- Paktrüstungsaufwertungen
 
-    [52724104] = { icon="vendor", npc=172176, covenant=Necrolord }, -- Ruhmrüstmeisterin
+    [52724104] = { icon="quartermaster", npc=172176, covenant=Necrolord }, -- Ruhmrüstmeisterin
     [46474023] = { icon="renown", npc=175998, covenant=Necrolord }, -- Hüterin des Ruhms
 --    [46684234] = { icon="vendor", npc=167748, covenant=Necrolord }, -- Seelenwächter
 
@@ -98,8 +98,8 @@ DB.nodes = {
     [52525602] = { icon="mail", label=Mailbox, covenant=Nightfae }, -- Briefkasten
     [54735619] = { icon="innkeeper", npc=160292, covenant=Nightfae }, -- Gastwirt
     [55085509] = { icon="anvil", npc=158554, covenant=Nightfae }, --
-    [60303270] = { icon="vendor", npc=174914, covenant=Nightfae }, -- Ruhmrüstmeisterin
-    [59473193] = { icon="vendor", npc=158556, covenant=Nightfae }, -- Rüstmeisterin der Wilden Jagd
+    [60303270] = { icon="quartermaster", npc=174914, covenant=Nightfae }, -- Ruhmrüstmeisterin
+    [59473193] = { icon="quartermaster", npc=158556, covenant=Nightfae }, -- Rüstmeisterin der Wilden Jagd
 
     [88013726] = { icon="stablemaster", npc=168082, covenant=Nightfae }, -- Stallmeisterin
 },
@@ -119,7 +119,7 @@ DB.nodes = {
     [62052630] = { icon="portal", label=PtoOribos, covenant=Venthyr, sanctumtalent=1049 },
     [66023348] = { icon="innkeeper", npc=166137, covenant=Venthyr }, -- Gastwirt
     [71582896] = { icon="stablemaster", npc=159000, covenant=Venthyr }, -- Stallmeisterin
-    [54122456] = { icon="vendor", npc=174710, covenant=Venthyr }, -- Ruhmrüstmeisterin
+    [54122456] = { icon="quartermaster", npc=174710, covenant=Venthyr }, -- Ruhmrüstmeisterin
     [60054330] = { icon="anvil", npc=166160, covenant=Venthyr}, -- Schmiedebedarf
     [60022874] = { icon="mail", label=Mailbox, covenant=Venthyr }, -- Briefkasten
     [54322626] = { icon="renown", npc=175772, covenant=Venthyr}, -- Hüterin des Ruhms
@@ -132,7 +132,7 @@ DB.nodes = {
     [55305433] = { icon="weaponsmith", npc=175407, covenant=Venthyr }, -- Normal
     [45406524] = { icon="weaponsmith", npc=174709, covenant=Venthyr }, -- Heroic
     [40164648] = { icon="weaponsmith", npc=175369, covenant=Venthyr }, -- Mythic
-    [70632748] = { icon="vendor", npc=175406, covenant=Venthyr}, -- Rüstmeister
+    [70632748] = { icon="quartermaster", npc=175406, covenant=Venthyr}, -- Rüstmeister
     [73022671] = { icon="reforge", npc=175408, covenant=Venthyr }, -- Paktrüstungsaufwertungen
     [67404719] = { icon="flightMaster", npc=172649, covenant=Venthyr }, -- Oberflächenflieger
 },

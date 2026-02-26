@@ -8,7 +8,7 @@
     * ![](https://i.imgur.com/NIUq9ta.png) Portals*
     * ![](https://i.imgur.com/FCGho5k.png) Armor Enhancers
     * ![](https://i.imgur.com/oxhxncv.png) Stable Masters
-    * ![](https://i.imgur.com/OlyHdAf.png) ![](https://i.imgur.com/8Z3EJlm.png) Vendors
+    * ![](https://i.imgur.com/OlyHdAf.png) ![Quartermaster](https://i.imgur.com/AYeqlvx.png) ![](https://i.imgur.com/8Z3EJlm.png) Vendors
     * ![](https://i.imgur.com/HXihDYh.png) Weaponsmiths
 
 *Not displayed if [HandyNotes: TravelGuide](https://www.curseforge.com/wow/addons/handynotes-travelguide) is already active.

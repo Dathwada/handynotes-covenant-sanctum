@@ -52,8 +52,8 @@ local function SetIcon(node)
 end
 
 local function GetIconScale(icon)
-    -- anvil npcs are vendors
-    if (icon == "anvil") then
+    -- anvil and quartermaster npcs are vendors
+    if (icon == "anvil" or icon == "quartermaster") then
         return ns.db["icon_scale_vendor"]
     end
 
@@ -61,8 +61,8 @@ local function GetIconScale(icon)
 end
 
 local function GetIconAlpha(icon)
-    -- anvil npcs are vendors
-    if (icon == "anvil") then
+    -- anvil and quartermasternpcs are vendors
+    if (icon == "anvil" or icon == "quartermaster") then
         return ns.db["icon_alpha_vendor"]
     end
 
@@ -311,7 +311,7 @@ do
             if (node.icon == "renown" and not ns.db.show_renown) then return false end
             if (node.icon == "stablemaster" and not ns.db.show_stablemaster) then return false end
             if (node.icon == "trainer" and not ns.db.show_others) then return false end
-            if (node.icon == "vendor" and not ns.db.show_vendor) then return false end
+            if ((node.icon == "vendor" or node.icon == "quartermaster") and not ns.db.show_vendor) then return false end
             if (node.icon == "weaponsmith" and not ns.db.show_weaponsmith) then return false end
         end
         return true
